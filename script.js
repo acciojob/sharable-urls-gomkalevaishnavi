@@ -17,5 +17,5 @@
             const queryString = `?name=${encodeURIComponent(name)}&year=${encodeURIComponent(year)}`;
 
             // Update the h3 element with the generated URL
-            urlElement.textContent = ` https://localhost:8080/${queryString}`;
+            urlElement.textContent = `URL: https://localhost:8080/${queryString}`;
         });
